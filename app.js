@@ -67,8 +67,8 @@ function push(node) {
 		} else {
 			buks[current].push(node);
 			buks.push(buks[current].split(bukkit.createBukkit(me, bukCount)));
-			console.log('bukkit ' + current + ' splited');
-			console.log('bukkit ' + current + ' has ' + buks[current].length() + ' nodes');
+			//console.log('bukkit ' + current + ' splited');
+			//console.log('bukkit ' + current + ' has ' + buks[current].length() + ' nodes');
 			//console.log('bukkit ' + bukCount + ' has ' + buks[bukCount].length() + ' nodes');
 			bukCount++;
 			if(node.bits[current] !== me.bits[current]) {
